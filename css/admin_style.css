@@ -1,0 +1,121 @@
+.bs_touch_slideshow {
+    clear: both;
+    overflow: hidden;
+}
+
+.bs_touch_slideshow_des {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.bs_price_title {
+    overflow: hidden;
+
+}
+
+.bs_touch_slideshow_left {
+    overflow: hidden;
+    float: left;
+    width: 15%;
+    padding: 5px 0px;
+    clear: both;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.bs_touch_slideshow_right {
+    overflow: hidden;
+    float: left;
+    padding: 5px 0px;
+    width: 56%;
+
+}
+
+input.bs_touch_cl {
+    width: 76%;
+
+}
+
+
+
+#poststuff .inside {
+    overflow: hidden !important;
+
+}
+
+h3.table_title {
+    background-color: #607D8B;
+    padding: 8px;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.bs_img_show {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: -30px;
+    height: 100px;
+    overflow: hidden;
+}
+input.price_table_cl {
+    width: 78%;
+}
+
+img.bs_touch_slideshow_img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bs_touch_slideshow_btn{
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9e9e9e), color-stop(1, #408c99));
+    background: -moz-linear-gradient(top, #9e9e9e 5%, #408c99 100%);
+    background: -webkit-linear-gradient(top, #9e9e9e 5%, #408c99 100%);
+    background: -o-linear-gradient(top, #9e9e9e 5%, #408c99 100%);
+    background: -ms-linear-gradient(top, #9e9e9e 5%, #408c99 100%);
+    background: linear-gradient(to bottom, #9e9e9e 5%, #408c99 100%);
+    filter: progid:DXtouchTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#408c99',GradientType=0);
+    background-color: #9e9e9e;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+
+}
+
+a.bs_touch_slideshow_btn:hover, a.bs_touch_slideshow_btn:focus {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter:progid:DXtouchTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    background-color:#408c99;
+    color: #DFDFDF !important;
+
+}
+
+.bs_img_show img {
+    width: 200px;
+}
+
+.bs_price input {
+    width: 100%;
+
+}
+

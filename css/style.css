@@ -1,0 +1,138 @@
+ #owl-demo .item{
+    margin: 0px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-pagination {
+    position: absolute;
+    bottom: -7% !important;
+}
+
+.slider-img img {
+    min-height: 400px;
+    background-size: cover;
+}
+.slider-box-txt {
+    width: 60%;
+    float: left;
+    clear: both;
+    padding: 25px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 20px;
+}
+.slider-bottom-txt {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+   bottom: 0px;
+}
+.slider-bottom-txt p {
+    width: 80%;
+    background: #6dcff6;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+   font-family: 'Lato', sans-serif;
+   font-style: italic;
+}
+p.title-txt {
+    margin: 0px;
+    line-height: 34px;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+p.subtitle-txt {
+    color: #6d6e71;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+ p.ubtitle-txt.white {
+    color: #fff;
+}
+
+span.signup-btn {
+    display: block;
+    color: #fff;
+    background: #53c609;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.slider-box-txt small {
+    font-size: 12px;
+    color: #6d6e71;
+    font-family: 'Lato', sans-serif;
+        position: relative;
+    top: -12px;
+}
+.owl-pagination {
+    display: none;
+}
+span.signup-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: none;
+}
+
+ @media screen and (max-width: 998px) {
+.slider-box-txt {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+ }
+
+.slider-bottom-txt p {
+    width: 100%;
+    background: #6dcff6;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 15px;
+  }
+}  
+ @media screen and (max-width: 480px) {
+.slider-box-txt {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+   
+}
+p.title-txt {
+    margin: 0px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+span.signup-btn {
+    display: block;
+    color: #fff;
+    background: #53c609;
+    width: 65%;
+    }
+p.subtitle-txt {
+    color: #6d6e71;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+.slider-bottom-txt p {
+    width: 100%;
+    background: #6dcff6;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 10px;
+  }
+}
+
